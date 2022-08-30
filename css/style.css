@@ -1,5 +1,65 @@
+/* General */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: lightgrey;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+
+/* page body */
+.blue{
+    background-color: #47ADF1;
+    color: white;
+}
+.orange{
+    background-color: #F29E33;
+}
+.green{
+    background-color:#B0C926 ;
+}
+.darkgreen{
+    background-color: #64C0A9;
+}
+.pink{
+    background-color: #D863A1;
+}
+.purple{
+    background-color: #9C72E4;
+}
+.white-space{
+    background-color: white;
+    padding: 15px 25px;
+}
+.white{
+    background-color: white;
+}
+header{
+    margin-bottom: 30px;
+}
+#pagetitle{
+    font-size: 2.3rem;
+    font-weight: 900;
+}
+main{
+    background-color: white;
+    border-radius: 10px;
+    width: 80%;
+    padding: 15px;
+    margin:0 auto;
+}
+.button{
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid #CCD2D6;
+    font-weight: 500;
+}
+.grey-text{
+    color: #CCD2D6;
+}
+.grey-border{
+    padding:15px 50px;;
+    border-bottom: 1px solid #CCD2D6;
 }
