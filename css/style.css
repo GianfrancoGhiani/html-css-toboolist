@@ -52,7 +52,11 @@
     background-color: white;
 }
 .circle{
-    padding: 2px 5px;
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    text-align: center;
+    line-height: 1.5rem;
     border-radius: 50%;
     border: 1px solid;
 }
